@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node/Express/SQL</title>
+    <link rel="stylesheet" href="./vendors/bootstrap.min.css" />
+    <script type="text/javascript" src="./vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/clientapp.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>At The Zoo</h1>
+    </div>
+    <div class="container">
+        <div class="inputAnimal col-md-8" >
+            <div class="input-animal panel panel-default sit-left text-center">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Input a New Animal</h3>
+                </div>
+                <form class="inputAnimalForm form-horizontal">
+                    <div class="form-group panel-body" id="inputAnimal>
+                        <label for="animalName">Animal Name: </label>
+                        <input type="text" id="animalName" name="animalName" class="form-control" />
+                    </div>
+                    <div class="btn">
+                        <button id="submit-animal" class="form-actions btn btn-primary">Submit Animal</button>
+                     </div>
+                </form>
+            </div>
+        </div>
+        <div class="showAnimal col-md-4">
+
+        </div>
+    </div>
+</body>
+</html>
